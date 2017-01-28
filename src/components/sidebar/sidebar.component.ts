@@ -1,6 +1,6 @@
 var template: string = require('./sidebar.html');
-class SidebarController {
-    constructor($state) {
+export class SidebarController {
+    constructor() {
         'ngInject';
     }
 }

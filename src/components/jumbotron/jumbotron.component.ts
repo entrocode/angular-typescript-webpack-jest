@@ -1,6 +1,6 @@
 var template: string = require('./jumbotron.html');
-class JumbotronController {
-    constructor($state) {
+export class JumbotronController {
+    constructor() {
         'ngInject';
     }
 }

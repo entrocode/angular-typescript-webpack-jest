@@ -1,7 +1,7 @@
 import {module} from 'angular';
-import rootComponent from './root.component';
+import RootComponent from './root.component';
 
-let rootModule = module('root', [])
-.component('root', rootComponent);
+let RootModule: any = module('root', [])
+.component('root', RootComponent);
 
-export default rootModule;
+export default RootModule;

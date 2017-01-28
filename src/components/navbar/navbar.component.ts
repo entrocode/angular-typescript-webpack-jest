@@ -1,6 +1,6 @@
 var template: string = require('./navbar.html');
-class NavbarController {
-    constructor($state) {
+export class NavbarController {
+    constructor() {
         'ngInject';
     }
 }

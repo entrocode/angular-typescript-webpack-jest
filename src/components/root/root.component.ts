@@ -1,11 +1,19 @@
 var template: string = require('./root.html');
-class RootController {
-    constructor($state) {
+export class RootController {
+    constructor() {
         'ngInject';
+    }
+
+    public sum(a: number, b: number) {
+        return a + b;
+    }
+
+    public subtract(a: number, b: number) {
+        return a - b;
     }
 }
 
-let rootComponent = {
+let RootComponent = {
     template,
     controller: RootController,
     controllerAs: "Root"
@@ -13,4 +21,4 @@ let rootComponent = {
 
 
 
-export default rootComponent;
+export default RootComponent;
